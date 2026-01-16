@@ -1,4 +1,6 @@
-# Firewall_IP_Blocker
+# ACL TaskForce
+
+> Human-led Unix ACL system that blocks malicious hosts and secures your network
 
 ## Overview
 This script automates IP blocking and allowlisting using UFW (Uncomplicated Firewall). It enables users to:
@@ -24,8 +26,8 @@ The script helps enhance server security by preventing unauthorized access while
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/cyb2rS2c/Firewall_IP_Blocker.git
-   cd Firewall_IP_Blocker
+   git clone https://github.com/cyb2rS2c/ACL_TaskForce.git
+   cd ACL_TaskForce
    ```
 2. Ensure Python is installed and updated.
 
@@ -38,6 +40,9 @@ The script helps enhance server security by preventing unauthorized access while
 3. Follow the menu prompts to add, remove, or modify firewall rules.
 
 Ensure that you have the necessary privileges and that UFW is correctly configured before running the script.
+
+## Screenshots:
+<img width="650" height="331" alt="image" src="https://github.com/user-attachments/assets/a7541af3-24a5-4ca6-b9ff-927f4a5a0021" />
 
 ## License
 
