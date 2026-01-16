@@ -19,24 +19,24 @@ The script helps enhance server security by preventing unauthorized access while
 - **Test before deployment:** Always verify changes in a controlled environment before applying them to production systems.
 
 ## Requirements
-- **Python 3.x**
-- **UFW (Uncomplicated Firewall)** installed and enabled
-- **sudo/root access** to apply firewall rules
+```bash
+pip install -r requirements.txt
+```
 
 ## Installation
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/cyb2rS2c/ACL_TaskForce.git
-   cd ACL_TaskForce
-   ```
+```bash
+git clone https://github.com/cyb2rS2c/ACL_TaskForce.git
+cd ACL_TaskForce
+```
 2. Ensure Python is installed and updated.
 
 ## Usage
 1. Add malicious IPs to `malicious_ips.txt`.
 2. Run the script:
-   ```sh
-   python3 prevent_malicious_ips_ufw.py
-   ```
+```bash
+python3 prevent_malicious_ips_ufw.py
+```
 3. Follow the menu prompts to add, remove, or modify firewall rules.
 
 Ensure that you have the necessary privileges and that UFW is correctly configured before running the script.
