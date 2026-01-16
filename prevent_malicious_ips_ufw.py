@@ -1,5 +1,9 @@
 import os
 import subprocess
+from art import create_ascii_text
+
+def clear():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 def add_ip(ip_list, ips_to_block):
     """Add IPs to the file and apply UFW deny rules."""
@@ -104,4 +108,8 @@ def main():
         print("Invalid choice. Exiting.")
 
 if __name__ == "__main__":
-    main()
+    try:
+        create_ascii_text()
+        main()
+    except KeyboardInterrupt:
+        clear()
